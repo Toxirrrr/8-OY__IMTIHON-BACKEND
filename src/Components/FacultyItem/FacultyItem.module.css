@@ -1,0 +1,11 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 8px 14px;
+  background: rgba(187, 187, 187, 0.3254901961);
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.item > img {
+  margin-left: 10px;
+}/*# sourceMappingURL=FacultyItem.module.css.map */

@@ -1,0 +1,19 @@
+.results {
+  width: 100%;
+}
+.results__title {
+  font-size: 35px;
+  line-height: 52px;
+  margin: 50px 0;
+}
+.results__ranges {
+  margin-bottom: 97px;
+}
+.results__subtitle {
+  font-size: 36px;
+  line-height: 54px;
+}
+.results__desc {
+  font-size: 28px;
+  line-height: 42px;
+}/*# sourceMappingURL=Score.module.css.map */

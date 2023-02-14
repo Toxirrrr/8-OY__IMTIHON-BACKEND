@@ -1,0 +1,56 @@
+.radio {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 27px;
+  color: #AEAEAE;
+  padding-left: 47px;
+  position: relative;
+}
+.radio > input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.radio > input::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #AEAEAE;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+.radio > input:checked::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #AEAEAE;
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  transform: translate(0, -50%);
+}
+
+.correct {
+  color: #18A0FB;
+}
+.correct > input::before {
+  border-color: #18A0FB;
+}
+.correct > input:checked::after {
+  background: #18A0FB;
+}
+
+.error {
+  color: #FB2719;
+}
+.error > input::before {
+  border-color: #FB2719;
+}
+.error > input:checked::after {
+  background: #FB2719;
+}/*# sourceMappingURL=Radio.module.css.map */
